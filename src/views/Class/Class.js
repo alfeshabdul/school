@@ -1,12 +1,30 @@
-import Navbar from '../../components/Navbar/Navbar';
+// src/components/ClassPage.js
 import React from 'react';
+import Navbar from '../../components/Navbar/Navbar';
 
 const ClassPage = () => {
   return (
     <div>
-        <Navbar/>
-      <h2>Class Page</h2>
-      <p>Welcome to the Class page. Here, you can find information about our classes and academic programs.</p>
+      <Navbar />
+      <div className="container mt-4">
+        <h2 className="mb-4 t-center">Classes and Academic Programs</h2>
+        <div className="row">
+          {[1, 2, 3, 4, 5].map((classNumber) => (
+            <div key={classNumber} className="col-md-4">
+              <div className="card mb-4">
+                <div className="card-header bg-primary text-white">
+                  <h3>Class {classNumber}</h3>
+                </div>
+                <div className="card-body">
+                  <p>
+                    Class {classNumber} focuses on building foundational knowledge and fostering a love for learning in young minds.
+                  </p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
     </div>
   );
 };

@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const Navbar = () => {
   return (
     <div className="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
-      <Link className='bl-c fs-3 title mx-3' to='/'>NV SCHOOL</Link>
+      <Link className='bl-c fs-3 title mx-3' to='/'><span className='bl-c'>NV SCHOOL</span></Link>
       <div className="options-container">
         <Link className='options' to='/apply'>Apply</Link>
         <Link className='options' to='/class'>Class</Link>
