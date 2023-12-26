@@ -17,7 +17,7 @@ const HomePage = () => {
         <section className="mb-4">
           <h2>About Us</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.
+            This is our school.
           </p>
         </section>
         <section className="mb-4">

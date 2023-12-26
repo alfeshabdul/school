@@ -1,6 +1,6 @@
-// src/components/ApplyPage.js
+
 import React from 'react';
-import './Apply.css'; // Assuming you have custom styles for this page
+import './Apply.css'; 
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 

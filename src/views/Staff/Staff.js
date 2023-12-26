@@ -1,10 +1,10 @@
-// src/components/StaffPage.js
+
 import React from 'react';
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 
 const StaffPage = () => {
-  // Sample staff data with image URLs
+
   const staffMembers = [
     {
       id: 1,
@@ -27,7 +27,7 @@ const StaffPage = () => {
       description: 'Instructs students in Mathematics and Science.',
       imageUrl: 'https://example.com/bob-johnson.jpg',
     },
-    // Add more staff members as needed
+   
   ];
 
   return (

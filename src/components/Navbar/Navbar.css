@@ -1,11 +1,11 @@
-/* src/components/Navbar.css */
+
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px; /* Adjust padding as needed */
-    background-color: #343a40; /* Dark background color */
+    padding: 10px 20px; 
+    background-color: #343a40;
   }
   
   .title {
@@ -16,8 +16,8 @@
   
   .options-container {
     display: flex;
-    gap: 20px; /* Adjust space between options */
-    justify-content: center; /* Center the options horizontally */
+    gap: 20px;
+    justify-content: center; 
   }
   
   .options {
