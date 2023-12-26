@@ -6,6 +6,9 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import HomePage from './views/Home/Home';
 import ApplyPage from './views/Apply/Apply';
+import StaffPage from './views/Staff/Staff';
+import ClassPage from './views/Class/Class';
+import FeesPage from './views/Fees/Fees';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -18,7 +21,22 @@ const router = createBrowserRouter([
         "path": "/apply",
         "element": <ApplyPage/>
         
-     }
+     },
+     {
+      "path": "/class",
+      "element": <ClassPage/>
+      
+   },
+   {
+    "path": "/staff",
+    "element": <StaffPage/>
+    
+ },
+ {
+  "path": "/fees",
+  "element": <FeesPage/>
+  
+},
 ])
 
 

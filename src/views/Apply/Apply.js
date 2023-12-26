@@ -4,7 +4,7 @@ import Navbar from '../../components/Navbar/Navbar';
 
 const ApplyPage = () => {
   return (
-    <div className="apply-container">
+    <div className="apply">
         <Navbar/>
       <header>
         <h1>Apply to My School</h1>
@@ -16,7 +16,7 @@ const ApplyPage = () => {
             <input type="text" className="form-control" id="fullName" />
           </div>
           <div className="mb-3">
-            <label htmlFor="email" className="form-label">Email</label>
+            <label htmlFor="email" className="form-label">Enter Email</label>
             <input type="email" className="form-control" id="email" />
           </div>
           <div className="mb-3">
