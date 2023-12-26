@@ -1,10 +1,15 @@
 
 import React from 'react';
 import '../../overall.css'
+import Navbar from '../../components/Navbar/Navbar';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const HomePage = () => {
   return (
-    <div className="container mt-4 bg-c">
+    
+    <div className="mt-4 bg-c">
+        <Navbar/>
       <header className="text-center">
         <h1 className='t-center'>Welcome to My School</h1>
       </header>
