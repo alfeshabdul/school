@@ -7,21 +7,21 @@ const StaffPage = () => {
   const staffMembers = [
     {
       id: 1,
-      name: 'John Doe',
-      position: 'Principal',
+      name: 'Mohd Mehraj Mohd Razzak ',
+      position: 'CORRESPONDED',
       description: 'Oversees the overall administration of the school.',
       imageUrl: 'https://example.com/john-doe.jpg',
     },
     {
       id: 2,
-      name: 'Jane Smith',
-      position: 'Teacher',
+      name: 'Shesheshwar Rao',
+      position: 'Principle',
       description: 'Teaches English and Literature to Class 5.',
       imageUrl: 'https://example.com/jane-smith.jpg',
     },
     {
       id: 3,
-      name: 'Bob Johnson',
+      name: 'Alfesh',
       position: 'Teacher',
       description: 'Instructs students in Mathematics and Science.',
       imageUrl: 'https://example.com/bob-johnson.jpg',
