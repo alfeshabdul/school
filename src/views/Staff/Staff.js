@@ -1,6 +1,7 @@
 // src/components/StaffPage.js
 import React from 'react';
 import Navbar from '../../components/Navbar/Navbar';
+import Footer from '../../components/Footer/Footer';
 
 const StaffPage = () => {
   // Sample staff data with image URLs
@@ -33,7 +34,7 @@ const StaffPage = () => {
     <div>
       <Navbar />
       <div className="container mt-4">
-        <h2 className="mb-4">Our Dedicated Staff</h2>
+        <h2 className="mb-4 t-center">Our Dedicated Staff</h2>
         <div className="card-deck">
           {staffMembers.map((staff) => (
             <div key={staff.id} className="card">
@@ -49,6 +50,7 @@ const StaffPage = () => {
           ))}
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

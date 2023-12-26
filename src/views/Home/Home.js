@@ -3,7 +3,7 @@ import React from 'react';
 import '../../overall.css'
 import Navbar from '../../components/Navbar/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import Footer from '../../components/Footer/Footer';
 
 const HomePage = () => {
   return (
@@ -27,9 +27,7 @@ const HomePage = () => {
           </p>
         </section>
       </main>
-      <footer className="text-center mt-4">
-        <p>&copy; 2023 My School. All rights reserved.</p>
-      </footer>
+      <Footer/>
     </div>
   );
 };

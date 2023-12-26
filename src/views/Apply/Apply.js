@@ -2,6 +2,7 @@
 import React from 'react';
 import './Apply.css'; // Assuming you have custom styles for this page
 import Navbar from '../../components/Navbar/Navbar';
+import Footer from '../../components/Footer/Footer';
 
 const ApplyPage = () => {
   return (
@@ -33,6 +34,7 @@ const ApplyPage = () => {
           </form>
         </div>
       </main>
+      <Footer/>
     </div>
   );
 };
